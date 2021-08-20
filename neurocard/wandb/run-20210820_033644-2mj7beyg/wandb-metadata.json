@@ -1,0 +1,33 @@
+{
+    "root": "/mnt/c/Users/Yuhan/Desktop/University/FYP/comparisons/neurocard/neurocard",
+    "program": "/home/yuhan/miniconda3/envs/neurocard/lib/python3.7/site-packages/ray/workers/default_worker.py",
+    "git": {
+        "remote": "https://github.com/YZ115/neurocard",
+        "commit": "a98f509e8d3c522d52ce4b4db47b894b7fafc153"
+    },
+    "email": null,
+    "startedAt": "2021-08-20T03:36:44.581499",
+    "host": "PIZZA-4",
+    "username": "yuhan",
+    "executable": "/home/yuhan/miniconda3/envs/neurocard/bin/python",
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.7",
+    "cpu_count": 16,
+    "args": [
+        "--node-ip-address=172.23.158.200",
+        "--node-manager-port=60705",
+        "--object-store-name=/tmp/ray/session_2021-08-19_22-36-42_021354_626/sockets/plasma_store",
+        "--raylet-name=/tmp/ray/session_2021-08-19_22-36-42_021354_626/sockets/raylet",
+        "--redis-address=172.23.158.200:6379",
+        "--config-list=plasma_store_as_thread,True",
+        "--temp-dir=/tmp/ray",
+        "--redis-password=5241590000000000"
+    ],
+    "state": "finished",
+    "jobType": null,
+    "mode": "dryrun",
+    "name": "NeuroCard_0_label_smoothing=0,lr_scheduler=OneCycleLR-0.28,max_steps=500,resmade_drop_prob=0.1,word_size_bits=11_2021-08-19_22-36-436vaycxnk",
+    "project": "test-job-light",
+    "heartbeatAt": "2021-08-20T03:49:10.734147",
+    "exitcode": 0
+}
